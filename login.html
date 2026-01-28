@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Candidate Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="container header-content">
+    <img src="logo .jpeg" alt="NGO Logo">
+    <div>
+      <h1>NGO Recruitment Cell</h1>
+      <p class="subtitle">Candidate Authentication</p>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <div class="card">
+    <h2>Candidate Login</h2>
+
+    <form id="loginForm">
+      <label>Full Name (As per ID)</label>
+      <input type="text" id="name" placeholder="Enter your full name" required>
+
+      <label>Registered Mobile Number</label>
+      <input type="tel" id="mobile" placeholder="10-digit mobile number" maxlength="10" required>
+
+      <div class="timer-box">
+        <span>Examination Time:</span>
+        <span id="timer">60:00</span>
+      </div>
+
+      <button type="submit" class="btn full">Start Examination</button>
+    </form>
+  </div>
+</main>
+
+<footer>
+  <p>© NGO Recruitment Cell | Secure Exam Portal</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
